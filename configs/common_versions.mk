@@ -53,7 +53,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.romstats.version=$(VERSION) \
     ro.romstats.tframe=1 \
     ro.romstats.askfirst=1 \
-    ro.romstats.ga=UA-48128535-2
+    ro.romstats.ga=UA-48128535-2 \
+	ro.product.locale.language=vi \
+	ro.product.locale.region=VN
 
 # Camera shutter sound property
 PRODUCT_PROPERTY_OVERRIDES += \
