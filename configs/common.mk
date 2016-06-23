@@ -126,6 +126,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/hexagon/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
+# Sony App
+PRODUCT_COPY_FILES += \
+    vendor/hexagon/prebuilt/common/app/home.apk:system/app/Home/home.apk \
+    vendor/hexagon/prebuilt/common/app/ClockWidgets.apk:system/app/ClockWidgets/ClockWidgets.apk \
+    vendor/hexagon/prebuilt/common/app/WallpaperPicker.apk:system/app/WallpaperPicker/WallpaperPicker.apk \
+    vendor/hexagon/prebuilt/common/app/Weather.apk:system/app/Weather/Weather.apk \
+    vendor/hexagon/prebuilt/common/app/WeatherWidget.apk:system/app/WeatherWidget/WeatherWidget.apk \
+
 # init.d
 PRODUCT_COPY_FILES += \
     vendor/hexagon/prebuilt/common/etc/init.local.rc:root/init.hexagon.rc \
