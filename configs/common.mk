@@ -29,7 +29,7 @@ PRODUCT_PACKAGES += \
 # HEXAGON packages
 PRODUCT_PACKAGES += \
     PhotoPhase \
-    Trebuchet \
+   ## Trebuchet \
     Eleven \
     Development \
     LockClock \
@@ -38,7 +38,7 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     OmniSwitch \
     Profiles \
-    WallpaperPicker \
+    ##WallpaperPicker \
     CMSettingsProvider \
     ExactCalculator \
     HexagonRom \
