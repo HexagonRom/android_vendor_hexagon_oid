@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
     OmniSwitch \
     Profiles \
     CMSettingsProvider \
+	CyanogenSetupWizard \
     ExactCalculator \
     HexagonRom \
     Screencast \
